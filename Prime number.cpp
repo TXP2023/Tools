@@ -1,5 +1,6 @@
 #include <math.h>
 #include <iostream>
+#include <Windows.h>
 
 typedef unsigned long long uint64_t;
 
@@ -16,8 +17,12 @@ int main() {
 			}
 		}
 		cout << n;
+		system("pause");
 		return 0;
 	LOOP:
 		;
 	}
+
+	system("pause");
+	return 0;
 }
