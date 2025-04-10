@@ -1,8 +1,16 @@
 #include <math.h>
 #include <iostream>
 #include <Windows.h>
-
-typedef unsigned long long uint64_t;
+#include <cstdint>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <map>
+#include <set>
+#include <list>
+#include <queue>
+#include <stack>
+#include <deque>
 
 using namespace std;
 int main() {
