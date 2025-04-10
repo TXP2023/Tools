@@ -10,7 +10,6 @@ int main() {
 	cin >> n;
 	--n;
 	while (n++) {
-		uint64_t Sqrt = sqrt(n);
 		for (uint64_t i = 2; i <= sqrt(n); ++i) {
 			if (n % i == 0) {
 				goto LOOP;
