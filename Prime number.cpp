@@ -10,6 +10,7 @@
 #include <list>
 #include <queue>
 #include <stack>
+#include <stdint.h>
 #include <deque>
 
 using namespace std;
