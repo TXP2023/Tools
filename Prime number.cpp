@@ -12,6 +12,9 @@
 #include <stack>
 #include <stdint.h>
 #include <deque>
+#include "lib\rand.h"
+
+#define endl "\n"
 
 using namespace std;
 int main() {
@@ -25,7 +28,7 @@ int main() {
 				goto LOOP;
 			}
 		}
-		cout << n;
+		cout << n << endl;
 		system("pause");
 		return 0;
 	LOOP:
