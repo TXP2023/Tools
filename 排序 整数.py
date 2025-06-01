@@ -6,14 +6,9 @@ try:
     if not numbers:
         print("错误：至少需要输入一个数字！")
     else:
-        # 升序排序
-        asc_sorted = sorted(numbers)
-        # 降序排序
-        desc_sorted = sorted(numbers, reverse=True)
-
         print("\n原始序列:", numbers)
-        print("升序排列:", asc_sorted)
-        print("降序排列:", desc_sorted)
+        print("升序排列:", sorted(numbers))
+        print("降序排列:", sorted(numbers, reverse=True))
 
 except ValueError:
     print("错误：请确保所有输入都是有效数字！")
