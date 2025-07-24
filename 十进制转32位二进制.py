@@ -1,4 +1,4 @@
-import cyaron
+#import cyaron
 while True:
     num = int(input())
     if num == -1:
